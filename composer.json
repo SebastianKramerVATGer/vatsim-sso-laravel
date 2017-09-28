@@ -19,15 +19,17 @@
             "homepage" : "http://www.bonroyage.com"
         }
     ],
+    "homepage" : "https://github.com/SebastianKramerVATGer/VatsimSSO-Laravel.git",
     "support" : {
-        "issues" : "https://github.com/KHardern/VatsimSSO-Laravel/issues",
-        "wiki" : "https://github.com/KHardern/VatsimSSO-Laravel/wiki"
+        "source" : "https://github.com/SebastianKramerVATGer/VatsimSSO-Laravel",
+        "issues" : "https://github.com/SebastianKramerVATGer/VatsimSSO-Laravel/issues",
+        "wiki" : "https://github.com/SebastianKramerVATGer/VatsimSSO-Laravel/wiki"
     },
     "require" : {
         "php" : ">=5.4.0",
-        "vatsim/sso" : "3.*",
-        "illuminate/support" : "4.*|5.*",
-        "illuminate/http" : "4.*|5.*"
+        "vatsim/sso" : "dev-develop",
+        "illuminate/support" : "5.*",
+        "illuminate/http" : "5.*"
     },
     "autoload" : {
         "psr-4" : {
